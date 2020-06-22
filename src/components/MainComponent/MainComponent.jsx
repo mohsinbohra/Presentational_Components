@@ -24,7 +24,7 @@ class Main extends Component {
         <div>
           <Navbar dark color="primary">
             <div className="container">
-              <NavbarBrand href="/">MAB</NavbarBrand>
+              <NavbarBrand href="/">React Basic</NavbarBrand>
             </div>
           </Navbar>
           <Menu dishes={this.state.dishes} onClick={(dishId) => this.onDishSelect(dishId)} />
